@@ -1,0 +1,9 @@
+{
+  "runs": 30,
+  "seed_count": 5,
+  "policy_count": 6,
+  "source_manifest": "dataset_manifest.json",
+  "source_commit": "09ec454a5675e32e1f0546b456b77857fdece018",
+  "selection_trace_hashes_match_main": true,
+  "metrics": "post-simulation data-profile diagnostics; labels characterize optimization writers only and never enter scheduling"
+}

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/data/Desktop/research/opti/FEOS/src/sensitivity.py", line 212, in <module>
+    main()
+  File "/data/Desktop/research/opti/FEOS/src/sensitivity.py", line 143, in main
+    rows.append(run_one(client_meta, rates, orders, policy, ttl, 5.0,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/Desktop/research/opti/FEOS/src/sensitivity.py", line 58, in run_one
+    cost = make_costs(client_meta, rates, participation, last_refresh,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/Desktop/research/opti/FEOS/src/femnist_sim.py", line 251, in make_costs
+    n = np.asarray([c["n"] for c in meta["clients"]], dtype=np.int64)
+                                    ~~~~^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str

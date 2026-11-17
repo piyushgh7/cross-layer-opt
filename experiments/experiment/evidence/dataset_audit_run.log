@@ -1,0 +1,37 @@
+{
+  "dataset": "LEAF FEMNIST / NIST Special Database 19",
+  "source_repo_commit": "09ec454a5675e32e1f0546b456b77857fdece018",
+  "sampling_fraction": 1.0,
+  "total_writers": 3597,
+  "total_examples": 817851,
+  "writer_identity_intersections": {
+    "optimization__validation": 0,
+    "optimization__final_test": 0,
+    "validation__final_test": 0
+  },
+  "writer_partition_adjustments": [],
+  "optimization_client_examples": {
+    "min": 19,
+    "median": 179.0,
+    "mean": 227.0483870967742,
+    "p90": 369.0,
+    "max": 584
+  },
+  "pixel_integrity": {
+    "sha256_unique_images": 814244,
+    "repeated_image_occurrences": 3607,
+    "repeated_images_across_partitions": 0,
+    "repeated_images_with_conflicting_labels": 0,
+    "pixel_range": [
+      0,
+      255
+    ],
+    "label_range": [
+      0,
+      61
+    ],
+    "nan_or_infinite_pixels": 0
+  },
+  "cross_partition_exact_duplicate_pairs": []
+}
+Wrote /data/Desktop/research/opti/FEOS/evidence/dataset_audit.json

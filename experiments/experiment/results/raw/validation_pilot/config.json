@@ -1,0 +1,18 @@
+{
+  "purpose": "validation-only learning-horizon pilot; excluded from final campaign",
+  "final_test_arrays_opened_or_evaluated": false,
+  "seed": 20261011,
+  "rounds": 50,
+  "clients_per_round_cap": 50,
+  "policy": "cross_layer",
+  "local_epochs": 1,
+  "batch_size": 5,
+  "learning_rate": 0.004,
+  "momentum": 0.9,
+  "optimization_writers": 2914,
+  "optimization_examples": 661619,
+  "validation_writers": 324,
+  "validation_examples": 72463,
+  "wall_seconds": 346.7835648639998,
+  "source": "results/raw/validation_pilot/validation_pilot.csv"
+}

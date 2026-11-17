@@ -1,0 +1,68 @@
+{
+  "random_fresh": {
+    "old_unique_mean": 1997.4,
+    "seeded_unique_mean": 1997.4,
+    "old_jain_mean": 0.4924451652460009,
+    "seeded_jain_mean": 0.4924451652460009,
+    "max_count_old_mean": 27.2,
+    "max_count_seeded_mean": 27.2,
+    "top100_share_old_mean": 0.035246099252742476,
+    "top100_share_seeded_mean": 0.035246099252742476
+  },
+  "random_ttl8": {
+    "old_unique_mean": 1993.6,
+    "seeded_unique_mean": 1993.6,
+    "old_jain_mean": 0.49229623624261737,
+    "seeded_jain_mean": 0.49229623624261737,
+    "max_count_old_mean": 26.6,
+    "max_count_seeded_mean": 26.6,
+    "top100_share_old_mean": 0.03543830513373637,
+    "top100_share_seeded_mean": 0.03543830513373637
+  },
+  "utility_blind": {
+    "old_unique_mean": 2317.0,
+    "seeded_unique_mean": 2317.0,
+    "old_jain_mean": 0.48827866278594234,
+    "seeded_jain_mean": 0.48827866278594234,
+    "max_count_old_mean": 67.2,
+    "max_count_seeded_mean": 67.2,
+    "top100_share_old_mean": 0.036021232979812745,
+    "top100_share_seeded_mean": 0.036021232979812745
+  },
+  "cross_layer_no_debt": {
+    "old_unique_mean": 85.2,
+    "seeded_unique_mean": 85.2,
+    "old_jain_mean": 0.02319516114645026,
+    "seeded_jain_mean": 0.02319516114645026,
+    "max_count_old_mean": 98.8,
+    "max_count_seeded_mean": 98.8,
+    "top100_share_old_mean": 0.04631999999999999,
+    "top100_share_seeded_mean": 0.04631999999999999
+  },
+  "cross_layer_debt_only": {
+    "old_unique_mean": 1896.0,
+    "seeded_unique_mean": 1896.0,
+    "old_jain_mean": 0.07712229636563372,
+    "seeded_jain_mean": 0.07712229636563372,
+    "max_count_old_mean": 100.0,
+    "max_count_seeded_mean": 100.0,
+    "top100_share_old_mean": 0.025404056811362274,
+    "top100_share_seeded_mean": 0.025404056811362274
+  },
+  "cross_layer": {
+    "old_unique_mean": 2319.4,
+    "seeded_unique_mean": 2319.4,
+    "old_jain_mean": 0.4890441536106021,
+    "seeded_jain_mean": 0.4890441536106021,
+    "max_count_old_mean": 66.6,
+    "max_count_seeded_mean": 66.6,
+    "top100_share_old_mean": 0.036026141394796686,
+    "top100_share_seeded_mean": 0.036026141394796686
+  },
+  "_audit": {
+    "executed_policy_seed_sequences": 30,
+    "identical_sequences_under_seeded_tie_rule": 30,
+    "different_sequences": 0,
+    "scope": "scheduler-only replay of full per-round traces; no model training or test scores used"
+  }
+}

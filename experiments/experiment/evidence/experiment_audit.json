@@ -1,0 +1,60 @@
+{
+  "completed_runs": 30,
+  "policies": [
+    "cross_layer",
+    "cross_layer_debt_only",
+    "cross_layer_no_debt",
+    "random_fresh",
+    "random_ttl8",
+    "utility_blind"
+  ],
+  "independent_seeds": [
+    20261011,
+    20262020,
+    20263029,
+    20264038,
+    20265047
+  ],
+  "round_rows": 3030,
+  "sensitivity_rows": 170,
+  "pqc_profile_sensitivity_runs": 100,
+  "pqc_profile_sensitivity_levels": [
+    0.0,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "tie_break_sequences_reproduced": 30,
+  "selected_data_diagnostic_runs": 30,
+  "dataset_examples": 817851,
+  "published_leaf_reference_examples": 805263,
+  "dataset_writers": 3597,
+  "optimization_writer_size_gini": 0.20905443475362934,
+  "optimization_writer_label_entropy_median": 0.8190018461524617,
+  "optimization_writer_size_entropy_spearman": 0.7112967688168699,
+  "dataset_exact_duplicate_groups": [
+    {
+      "writers": [
+        "f1417_14",
+        "f1420_00"
+      ],
+      "assigned_partition": "optimization"
+    }
+  ],
+  "cross_partition_exact_duplicate_occurrences": 0,
+  "final_test_metrics_in_round_logs": false,
+  "max_energy_reconstruction_error_j": 2.1827872842550278e-11,
+  "nominal_main_vs_sensitivity_max_abs_delta": {
+    "admitted": 0.0,
+    "client_energy_j": 3.637978807091713e-12,
+    "kem_refreshes": 0.0
+  },
+  "validation_pilot_vs_main_first50_max_abs_delta": {
+    "validation_accuracy": 0.0,
+    "selected": 0.0,
+    "client_energy_j": 0.0,
+    "kem_refreshes": 0.0
+  },
+  "failures": []
+}

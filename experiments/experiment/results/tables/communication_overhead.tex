@@ -1,0 +1,23 @@
+\begin{table}[!ht]
+\caption{Participation coverage and communication/cryptographic overhead per 100-round run (mean $\pm$ 95\% confidence-interval half-width over five seeds).}
+\label{tab:communication-overhead}
+\centering
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{|p{0.18\columnwidth}|p{0.18\columnwidth}|p{0.18\columnwidth}|p{0.18\columnwidth}|p{0.18\columnwidth}|}
+\hline
+Policy & Unique\newline{}writers & Model traffic\newline{}(GB) & KEM handshake\newline{}(MB) & Server KEM\newline{}energy (J) \\
+\hline
+Random, fresh KEM & 1997.4 $\pm$ 13.1 & 13.48 $\pm$ 0.05 & 8.88 $\pm$ 0.03 & 62.92 $\pm$ 0.24 \\
+\hline
+Random, 8-round session & 1993.6 $\pm$ 12.3 & 13.46 $\pm$ 0.04 & 8.01 $\pm$ 0.04 & 56.70 $\pm$ 0.29 \\
+\hline
+Utility, crypto-blind & 2317.0 $\pm$ 3.0 & 14.93 $\pm$ 0.02 & 9.67 $\pm$ 0.01 & 68.50 $\pm$ 0.04 \\
+\hline
+Cross-layer, no debt & 85.2 $\pm$ 2.0 & 17.23 $\pm$ 0.00 & 2.06 $\pm$ 0.02 & 14.58 $\pm$ 0.14 \\
+\hline
+Cross-layer, debt only & 1896.0 $\pm$ 5.3 & 17.23 $\pm$ 0.00 & 9.12 $\pm$ 0.02 & 64.61 $\pm$ 0.18 \\
+\hline
+Cross-layer & 2319.4 $\pm$ 2.7 & 14.93 $\pm$ 0.01 & 9.67 $\pm$ 0.01 & 68.45 $\pm$ 0.06 \\
+\hline
+\end{tabular}
+\end{table}

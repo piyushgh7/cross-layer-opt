@@ -1,0 +1,51 @@
+doi	year	journal	title	publisher
+10.1002/spe.3121	2022	Software: Practice and Experience	Post‐quantum cryptography techniques for secure communication in resource‐constrained Internet of Things devices: A comprehensive survey	Wiley
+10.1007/s10462-024-10774-7	2024	Artificial Intelligence Review	Survey: federated learning data security and privacy-preserving in edge-Internet of Things	Springer Science and Business Media LLC
+10.1007/s13389-025-00369-5	2025	Journal of Cryptographic Engineering	Extended version: enabling lattice-based post-quantum cryptography on the opentitan platform	Springer Science and Business Media LLC
+10.1007/s43926-025-00238-x	2025	Discover Internet of Things	Implementation and performance of post-quantum cryptography for resource constrained consumer electronics	Springer Science and Business Media LLC
+10.1016/j.comcom.2024.04.012	2024	Computer Communications	Towards Energy-Aware Federated Learning via Collaborative Computing Approach	Elsevier BV
+10.1016/j.comcom.2024.07.014	2024	Computer Communications	Eco-FL: Enhancing Federated Learning sustainability in edge computing through energy-efficient client selection	Elsevier BV
+10.1016/j.comnet.2023.109657	2023	Computer Networks	From centralized to Federated Learning: Exploring performance and end-to-end resource consumption	Elsevier BV
+10.1016/j.comnet.2024.110512	2024	Computer Networks	Client selection for federated learning using combinatorial multi-armed bandit under long-term energy constraint	Elsevier BV
+10.1016/j.comnet.2024.110663	2024	Computer Networks	A comprehensive survey on client selection strategies in federated learning	Elsevier BV
+10.1016/j.comnet.2025.111472	2025	Computer Networks	PQBFL: A Post-Quantum Blockchain-based protocol for Federated Learning	Elsevier BV
+10.1016/j.comnet.2025.111957	2026	Computer Networks	Comparative analysis of post-quantum handshake performance in QUIC and TLS protocols	Elsevier BV
+10.1016/j.cosrev.2024.100676	2024	Computer Science Review	Quantum secure authentication and key agreement protocols for IoT-enabled applications: A comprehensive survey and open challenges	Elsevier BV
+10.1016/j.future.2025.108062	2026	Future Generation Computer Systems	A performance evaluation framework for post-quantum TLS	Elsevier BV
+10.1016/j.iot.2020.100174	2020	Internet of Things	A comprehensive survey of prominent cryptographic aspects for securing communication in post-quantum IoT networks	Elsevier BV
+10.1016/j.iot.2023.100950	2023	Internet of Things	A roadmap from classical cryptography to post-quantum resistant cryptography for 5G-enabled IoT: Challenges, opportunities and solutions	Elsevier BV
+10.1016/j.iot.2024.101132	2024	Internet of Things	Securing IoT systems in a post-quantum environment: Vulnerabilities, attacks, and possible solutions	Elsevier BV
+10.1016/j.iot.2026.101994	2026	Internet of Things	PQ-FLCom: Post-quantum secure communication for industrial federated learning	Elsevier BV
+10.1016/j.pmcj.2024.101948	2024	Pervasive and Mobile Computing	Federated learning energy saving through client selection	Elsevier BV
+10.1038/s41598-024-74377-6	2024	Scientific Reports	PQSF: post-quantum secure privacy-preserving federated learning	Springer Science and Business Media LLC
+10.1038/s41598-025-28413-8	2026	Scientific Reports	Post-quantum cryptographic authentication protocol for industrial IoT using lattice-based cryptography	Springer Science and Business Media LLC
+10.1049/cmu2.12333	2022	IET Communications	Bandwidth constrained client selection and scheduling for federated learning over SD‐WAN	Institution of Engineering and Technology (IET)
+10.1049/smc2.70040	2026	IET Smart Cities	Post‐Quantum Cryptography for Smart City Cybersecurity: An Evaluation of PQC Algorithms Across IoT–Edge–Cloud Layers	Institution of Engineering and Technology (IET)
+10.1109/access.2020.3013541	2020	IEEE Access	Federated Learning: A Survey on Enabling Technologies, Protocols, and Applications	Institute of Electrical and Electronics Engineers (IEEE)
+10.1109/access.2021.3056919	2021	IEEE Access	Client Selection for Federated Learning With Non-IID Data in Mobile Edge Computing	Institute of Electrical and Electronics Engineers (IEEE)
+10.1109/access.2025.3528562	2025	IEEE Access	A Survey of Post-Quantum Cryptography Migration in Vehicles	Institute of Electrical and Electronics Engineers (IEEE)
+10.1109/comst.2020.2986024	2020	IEEE Communications Surveys &amp; Tutorials	Federated Learning in Mobile Edge Networks: A Comprehensive Survey	Institute of Electrical and Electronics Engineers (IEEE)
+10.1109/comst.2021.3075439	2021	IEEE Communications Surveys &amp; Tutorials	Federated Learning for Internet of Things: A Comprehensive Survey	Institute of Electrical and Electronics Engineers (IEEE)
+10.1109/jiot.2022.3176739	2022	IEEE Internet of Things Journal	Exploring Deep-Reinforcement-Learning-Assisted Federated Learning for Online Resource Allocation in Privacy-Preserving EdgeIoT	Institute of Electrical and Electronics Engineers (IEEE)
+10.1109/jiot.2024.3425757	2024	IEEE Internet of Things Journal	Client Selection for Wireless Federated Learning With Data and Latency Heterogeneity	Institute of Electrical and Electronics Engineers (IEEE)
+10.1109/mcom.001.1900461	2020	IEEE Communications Magazine	Federated Learning for Wireless Communications: Motivation, Opportunities, and Challenges	Institute of Electrical and Electronics Engineers (IEEE)
+10.1109/msp.2020.2975749	2020	IEEE Signal Processing Magazine	Federated Learning: Challenges, Methods, and Future Directions	Institute of Electrical and Electronics Engineers (IEEE)
+10.1109/tccn.2024.3424840	2025	IEEE Transactions on Cognitive Communications and Networking	Joint Optimization of Resource Allocation and Data Selection for Fast and Cost-Efficient Federated Edge Learning	Institute of Electrical and Electronics Engineers (IEEE)
+10.1109/tcomm.2019.2944169	2020	IEEE Transactions on Communications	Scheduling Policies for Federated Learning in Wireless Networks	Institute of Electrical and Electronics Engineers (IEEE)
+10.1109/tkde.2021.3124599	2023	IEEE Transactions on Knowledge and Data Engineering	A Survey on Federated Learning Systems: Vision, Hype and Reality for Data Privacy and Protection	Institute of Electrical and Electronics Engineers (IEEE)
+10.1109/tkde.2024.3390041	2024	IEEE Transactions on Knowledge and Data Engineering	MAP: Model Aggregation and Personalization in Federated Learning With Incomplete Classes	Institute of Electrical and Electronics Engineers (IEEE)
+10.1109/tnet.2020.3035770	2021	IEEE/ACM Transactions on Networking	Federated Learning Over Wireless Networks: Convergence Analysis and Resource Allocation	Institute of Electrical and Electronics Engineers (IEEE)
+10.1109/twc.2020.3025446	2021	IEEE Transactions on Wireless Communications	Joint Device Scheduling and Resource Allocation for Latency Constrained Wireless Federated Learning	Institute of Electrical and Electronics Engineers (IEEE)
+10.1109/twc.2020.3031503	2021	IEEE Transactions on Wireless Communications	Client Selection and Bandwidth Allocation in Wireless Federated Learning Networks: A Long-Term Perspective	Institute of Electrical and Electronics Engineers (IEEE)
+10.1109/twc.2020.3037554	2021	IEEE Transactions on Wireless Communications	Energy Efficient Federated Learning Over Wireless Communication Networks	Institute of Electrical and Electronics Engineers (IEEE)
+10.1109/twc.2022.3181611	2022	IEEE Transactions on Wireless Communications	Resource Consumption for Supporting Federated Learning in Wireless Networks	Institute of Electrical and Electronics Engineers (IEEE)
+10.1109/twc.2024.3363706	2024	IEEE Transactions on Wireless Communications	Joint Client Scheduling and Quantization Optimization in Energy Harvesting-Enabled Federated Learning Networks	Institute of Electrical and Electronics Engineers (IEEE)
+10.1145/3298981	2019	ACM Transactions on Intelligent Systems and Technology	Federated Machine Learning	Association for Computing Machinery (ACM)
+10.1145/3659205	2024	ACM Computing Surveys	Topology-aware Federated Learning in Edge Computing: A Comprehensive Survey	Association for Computing Machinery (ACM)
+10.3390/cryptography10040055	2026	Cryptography	Energy Consumption of Post-Quantum Cryptography on Constrained and General-Purpose Architectures	MDPI AG
+10.3390/cryptography7030040	2023	Cryptography	A Survey of Post-Quantum Cryptography: Start of a New Race	MDPI AG
+10.3390/cryptography8020021	2024	Cryptography	Constrained Device Performance Benchmarking with the Implementation of Post-Quantum Cryptography	MDPI AG
+10.3390/cryptography9040073	2025	Cryptography	Post-Quantum Key Exchange in TLS 1.3: Further Analysis on Performance of New Cryptographic Standards	MDPI AG
+10.3390/jcp5030042	2025	Journal of Cybersecurity and Privacy	Energy Consumption Framework and Analysis of Post-Quantum Key-Generation on Embedded Devices	MDPI AG
+10.3390/math13091404	2025	Mathematics	Efficient Post-Quantum Cross-Silo Federated Learning Based on Key Homomorphic Pseudo-Random Function	MDPI AG
+10.3390/s22020450	2022	Sensors	Federated Learning in Edge Computing: A Systematic Survey	MDPI AG

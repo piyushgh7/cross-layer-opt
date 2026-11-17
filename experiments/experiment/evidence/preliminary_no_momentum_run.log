@@ -1,0 +1,5 @@
+rep=1/5 policy=random_fresh round=10/50 selected=39 acc=0.0557 energy=476.637J
+rep=1/5 policy=random_fresh round=20/50 selected=40 acc=0.0557 energy=476.884J
+rep=1/5 policy=random_fresh round=30/50 selected=39 acc=0.0557 energy=475.685J
+rep=1/5 policy=random_fresh round=40/50 selected=39 acc=0.0557 energy=475.492J
+rep=1/5 policy=random_fresh round=50/50 selected=42 acc=0.0557 energy=475.070J

@@ -1,0 +1,52 @@
+{
+  "rounds": 100,
+  "repetitions": 5,
+  "clients_per_round": 50,
+  "budget_fraction": 0.85,
+  "deadline_s": 5.0,
+  "rate_min_mbps": 10.0,
+  "rate_max_mbps": 100.0,
+  "eval_every": 5,
+  "seed": 20261011,
+  "torch_threads": 1,
+  "workers": 8,
+  "momentum": 0.9,
+  "campaign_wall_s": 19719.961470317998,
+  "environment": {
+    "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "processor": "x86_64",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "torch": "2.13.0+cpu",
+    "cryptography": "50.0.1",
+    "cpu_affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "torch_intraop_threads": 1,
+    "parallel_client_trainers": 8
+  },
+  "n_train_clients": 2914,
+  "n_validation_clients": 324,
+  "n_test_clients": 359,
+  "n_train_examples": 661619,
+  "n_validation_examples": 72463,
+  "n_test_examples": 83769,
+  "kmax": 50,
+  "model_bytes": 1723384,
+  "budget_j_per_round": 476.9254569356363,
+  "sgd_momentum": 0.9,
+  "profile_provenance": {
+    "cpu_training": "Yuan et al., WWW 2024, Table 2; Xiaomi 10, FEMNIST, LeNet-5, batch 5, 58 ms and 0.3 J per batch",
+    "kem": "Alrowaili et al., IET Smart Cities 2026, Table 8; ESP32-P4 ML-KEM-768 keygen/encapsulation/decapsulation",
+    "wifi_power": "Arouj and Abdelmoniem, Computer Communications 2024, Wi-Fi upload/download battery slopes; HTC Desire HD battery 4.55 Wh",
+    "host_measurement": "results/raw/pqc_benchmark.json; timing only, not used as embedded energy"
+  },
+  "tie_breaking": "shared seed-derived per-round permutation rank for exact utility-score ties; scheduler replay matched all 30 executed policy-seed sequences"
+}

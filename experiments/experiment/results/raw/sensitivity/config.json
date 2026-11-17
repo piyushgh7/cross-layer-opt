@@ -1,0 +1,16 @@
+{
+  "clients": 2914,
+  "rounds": 50,
+  "independent_seeds": 5,
+  "max_clients_per_round": 50,
+  "source_manifest": "results/raw/femnist_campaign/dataset_manifest.json",
+  "model_bytes": 1723384,
+  "sweeps": [
+    "session lifetime",
+    "channel-rate/deadline envelope",
+    "radio-energy multiplier",
+    "aggregate energy budget",
+    "maximum cohort size"
+  ],
+  "accuracy_claims": "none; system-level admission/cost sensitivities only"
+}

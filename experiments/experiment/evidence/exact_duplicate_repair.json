@@ -1,0 +1,35 @@
+{
+  "procedure": "move the complete held-out writer to the training side when its exact image duplicate is already in training; validation assignment is then group-constrained",
+  "records": [
+    {
+      "pair": {
+        "sha256": "f5fdf2ad08f973b993b009561d8c2bc33180588f4e2c3529603585937b113722",
+        "label": 45,
+        "first_partition": "optimization",
+        "first_writer": "f1420_00",
+        "first_index": 14229,
+        "other_partition": "final_test",
+        "other_writer": "f1417_14",
+        "other_index": 14508
+      },
+      "writer_moved": "f1417_14",
+      "source_shard": "data/leaf/data/femnist/data/test/all_data_1_test_9.json",
+      "target_shard": "data/leaf/data/femnist/data/train/all_data_64_train_9.json",
+      "writer_examples": 293,
+      "reason": "prevent exact pixel duplicate crossing writer partitions"
+    }
+  ],
+  "before": {
+    "train_writers": 3237,
+    "train_examples": 733789,
+    "test_writers": 360,
+    "test_examples": 84062
+  },
+  "after": {
+    "train_writers": 3238,
+    "train_examples": 734082,
+    "test_writers": 359,
+    "test_examples": 83769
+  },
+  "total_examples_conserved": true
+}

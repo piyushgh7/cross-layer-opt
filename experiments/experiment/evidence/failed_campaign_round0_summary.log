@@ -1,0 +1,22 @@
+rep=1/5 policy=random_fresh round=10/100 selected=34 acc=0.0936 energy=476.595J
+rep=1/5 policy=random_fresh round=20/100 selected=37 acc=0.1696 energy=475.924J
+rep=1/5 policy=random_fresh round=30/100 selected=41 acc=0.3672 energy=474.760J
+rep=1/5 policy=random_fresh round=40/100 selected=35 acc=0.5535 energy=474.566J
+rep=1/5 policy=random_fresh round=50/100 selected=40 acc=0.6462 energy=476.610J
+rep=1/5 policy=random_fresh round=60/100 selected=41 acc=0.7025 energy=475.219J
+rep=1/5 policy=random_fresh round=70/100 selected=40 acc=0.7256 energy=475.155J
+rep=1/5 policy=random_fresh round=80/100 selected=39 acc=0.7446 energy=476.407J
+rep=1/5 policy=random_fresh round=90/100 selected=37 acc=0.7643 energy=475.686J
+rep=1/5 policy=random_fresh round=100/100 selected=42 acc=0.7584 energy=474.616J
+Traceback (most recent call last):
+  File "/data/Desktop/research/opti/FEOS/src/femnist_sim.py", line 629, in <module>
+    main()
+  File "/data/Desktop/research/opti/FEOS/src/femnist_sim.py", line 625, in main
+    run_campaign(p.parse_args())
+  File "/data/Desktop/research/opti/FEOS/src/femnist_sim.py", line 561, in run_campaign
+    "key_refreshes": int(sum(x["kem_refreshes"] for x in all_rounds
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/Desktop/research/opti/FEOS/src/femnist_sim.py", line 561, in <genexpr>
+    "key_refreshes": int(sum(x["kem_refreshes"] for x in all_rounds
+                             ~^^^^^^^^^^^^^^^^^
+KeyError: 'kem_refreshes'

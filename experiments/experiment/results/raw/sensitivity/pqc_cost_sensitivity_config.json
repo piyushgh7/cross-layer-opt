@@ -1,0 +1,33 @@
+{
+  "experiment": "paired ML-KEM operation-profile sensitivity",
+  "input_manifest": "results/raw/femnist_campaign/dataset_manifest.json",
+  "input_manifest_sha256": "12358cce2e2630385c29643d4d85d7a8acca20a2e4f90b87280b0da9554f0bcd",
+  "source_script_sha256": "30ce5a5fec1326a103a70e4429ec5f5244f75d3582e92e53f0a4901df560efc6",
+  "source_sensitivity_sha256": "f0e466f4ee5282f6643e22186c4b6fbcba8453b6434300b7edba502943b225d4",
+  "clients": 2914,
+  "rounds_per_run": 50,
+  "fixed_nominal_energy_budget_j": 476.9254569356363,
+  "independent_seeds": [
+    20261011,
+    20262020,
+    20263029,
+    20264038,
+    20265047
+  ],
+  "policies": [
+    "utility_blind",
+    "cross_layer"
+  ],
+  "levels": [
+    0.0,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "energy_axis": "multiplies client key-generation and decapsulation energy and server encapsulation energy; bytes and latency fixed",
+  "latency_axis": "multiplies client key-generation and decapsulation latency; operation energy and bytes fixed",
+  "controlled_inputs": "paired rate matrices, random client order, full optimization writer population, fixed 10-100 Mb/s scenario, 5 s deadline, fixed nominal 0.85 energy budget in joules across KEM multipliers, and 8-round session cap",
+  "interpretation": "system-level sensitivity only; no retraining or accuracy claim",
+  "rows": 100
+}

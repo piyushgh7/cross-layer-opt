@@ -1,0 +1,38 @@
+\begin{table}[!ht]
+\caption{Post-simulation client resources in the exact scheduler traces (mean $\pm$ 95\% interval across five seeds).}
+\label{tab:selection-resources}
+\centering
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{|p{0.30\columnwidth}|p{0.30\columnwidth}|p{0.30\columnwidth}|}
+\hline
+Scheduler & Examples\newline{}per update & Link rate\newline{}(Mb/s) \\
+\hline
+Fresh random & 192.9 $\pm$ 0.8 & 57.8 $\pm$ 0.6 \\
+\hline
+TTL-8 random & 193.1 $\pm$ 0.7 & 57.8 $\pm$ 0.7 \\
+\hline
+Utility blind & 175.5 $\pm$ 0.3 & 82.2 $\pm$ 0.2 \\
+\hline
+Cross-layer & 175.5 $\pm$ 0.2 & 82.2 $\pm$ 0.2 \\
+\hline
+\end{tabular}
+\end{table}
+\begin{table}[!ht]
+\caption{Post-simulation selected-cohort label profile in the exact scheduler traces (mean $\pm$ 95\% interval across five seeds).}
+\label{tab:selection-labels}
+\centering
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{|p{0.30\columnwidth}|p{0.30\columnwidth}|p{0.30\columnwidth}|}
+\hline
+Scheduler & Normalized\newline{}entropy & Class JSD\newline{}(bits) \\
+\hline
+Fresh random & 0.8755 $\pm$ 0.0007 & 0.0099 $\pm$ 0.0005 \\
+\hline
+TTL-8 random & 0.8758 $\pm$ 0.0007 & 0.0097 $\pm$ 0.0005 \\
+\hline
+Utility blind & 0.8454 $\pm$ 0.0002 & 0.0460 $\pm$ 0.0002 \\
+\hline
+Cross-layer & 0.8454 $\pm$ 0.0002 & 0.0461 $\pm$ 0.0002 \\
+\hline
+\end{tabular}
+\end{table}

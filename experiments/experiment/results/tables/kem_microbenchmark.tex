@@ -1,0 +1,21 @@
+\begin{table}[!ht]
+\caption{Host-measured cryptographic operation latency and serialized material. Times are pooled over five batches of 2,000 trials.}
+\label{tab:kem}
+\centering
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{|p{0.27\columnwidth}|p{0.18\columnwidth}|p{0.21\columnwidth}|p{0.24\columnwidth}|}
+\hline
+Operation & Median (ms) & 95th percentile (ms) & Serialized material \\
+\hline
+ML-KEM-768 key generation & 0.1464 & 0.1849 & PK 1,184 B \\
+\hline
+ML-KEM-768 encapsulation & 0.0337 & 0.0463 & CT 1,088 B \\
+\hline
+ML-KEM-768 decapsulation & 0.0503 & 0.0640 & SS 32 B \\
+\hline
+X25519 key generation & 0.0505 & 0.0762 & PK 32 B \\
+\hline
+X25519 exchange & 0.0514 & 0.0701 & SS 32 B \\
+\hline
+\end{tabular}
+\end{table}
